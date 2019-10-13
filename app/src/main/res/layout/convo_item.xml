@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/from_you_butt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/grey_background_style"
+        android:fontFamily="sans-serif-light"
+        android:text="Hi dr, i am experiencing ..., ..., ... and my pain level is 1 out of 10. What should i do?"
+        android:textSize="20dp"/>
+
+</LinearLayout>

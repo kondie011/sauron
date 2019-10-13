@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/content_main" />
+
+<!--        <Button-->
+<!--                android:id="@+id/order_food_butt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="bottom|end"-->
+<!--                android:layout_marginBottom="85dp"-->
+<!--                android:layout_margin="16dp"-->
+<!--                android:text="Finish order"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:padding="10dp"-->
+<!--                android:elevation="4dp"-->
+<!--                android:background="@drawable/trans_circle2"-->
+<!--                app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/tb"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    android:background="@drawable/trans_circle"
+                    android:theme="@style/AppTheme.AppBarOverlay"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:elevation="4dp"
+                    android:layout_marginRight="16dp"
+                android:visibility="gone"
+                    android:layout_marginBottom="16dp" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
